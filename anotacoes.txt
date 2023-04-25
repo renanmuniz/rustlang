@@ -1,0 +1,52 @@
+-- INSTALACAO --
+- Para instalar no linux:
+$ curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+
+- Verificar versão:
+rustc --version
+
+- Atualizar rust:
+rustup update
+
+- Abrir documentacao:
+rustup doc
+
+
+------------------
+
+- Extensao de fonte rust: nome_do_fonte.rs
+
+- Compilar:
+rustc nome_do_fonte.rs
+
+- Se acontecer o erro "rust-error-linker-cc-not-found":
+Instalar build essentials: sudo apt install build-essential
+
+- Executar:
+./nome_do_fonte
+
+
+------------------
+
+CARGO
+Cargo e' um gerenciador de dependencias e builder de projetos rust
+
+Verificar versao:
+cargo --version
+
+Criar projeto com Cargo:
+cargo new hello_world
+
+Buildar:
+cargo build
+
+Buildar para relase (com otimizacoes):
+cargo build --release
+
+Executar:
+cargo run
+
+Verificar sem compilar:
+cargo check
+
+
