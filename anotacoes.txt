@@ -37,6 +37,9 @@ cargo --version
 Criar projeto com Cargo:
 cargo new hello_world
 
+Criar projeto com Cargo sem versionamento(git) default:
+cargo new --vcs=none my_project
+
 Buildar:
 cargo build
 
@@ -49,4 +52,6 @@ cargo run
 Verificar sem compilar:
 cargo check
 
+Abrir documentacao das libs do projeto:
+cargo doc --open
 
